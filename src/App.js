@@ -20,7 +20,7 @@ import { useSelector, useDispatch } from 'react-redux'
 function App() {
   const islogin = useSelector(state => state.loginReducer.success)
   const dispatch = useDispatch()
-  console.log('main', islogin)
+  //console.log('main', islogin)
   return (
     <div className="App">
       <h1>{islogin}</h1>
