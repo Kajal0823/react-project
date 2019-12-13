@@ -1,0 +1,22 @@
+[
+    {
+        "hrefName": "home.html",
+        "toLink": "home",
+        "Name": "home"
+    },
+    {
+        "hrefName": "home.html",
+        "toLink": "about",
+        "Name": "about"
+    },
+    {
+        "hrefName": "list.html",
+        "toLink": "listing",
+        "Name": "Listing"
+    },
+    {
+        "hrefName": "login.html",
+        "toLink": "login",
+        "Name": "Login"
+    }
+]
