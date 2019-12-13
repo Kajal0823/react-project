@@ -9,13 +9,6 @@ import { bindActionCreators, compose } from 'redux'
 
 class login extends Component {
 
-  componentDidMount() {
-
-    // if (username !== null || password !== null) {
-    //this.props.dispatch(loginSucess())
-    // }
-
-  };
   constructor(props) {
     super(props)
     this.state = {
@@ -23,12 +16,6 @@ class login extends Component {
       password: '',
     }
   }
-  componentDidUpdate(pp, ps, ss) {
-
-  }
-  // loginSucess() {
-  //     console.log("actionCreator", this.props)
-  // }
   handleLogin = () => {
     const { username, password } = this.state;
     this.props.dispatch(
@@ -55,7 +42,6 @@ class login extends Component {
         <div>
           <input type='text' placeholder='UserName' value={username} onChange={(e) => this.setState({ username: e.target.value })} /><br></br><br></br>
           <input type='text' placeholder='Password' value={this.state.password} onChange={(e) => this.setState({ password: e.target.value })} /><br></br><br></br>
-          {/* <button onClick={() => this.props.dispatch(fetchLogin(username, this.state.password))}>Login</button> */}
           <button onClick={this.handleLogin}>Login</button>
 
         </div>
@@ -77,10 +63,4 @@ const mapStateToProps = (state, history, location) => {
   }
 }
 
-// function mapDispatchToProps(dispatch) {
-//     return bindActionCreators({ loginSucess }, dispatch)
-// }
-// login.contextType = {
-//     router: React.propTypes.object.isRequired
-// }
 export default withRouter(connect(mapStateToProps)(login))

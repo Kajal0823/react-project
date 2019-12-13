@@ -73,10 +73,6 @@ class ComplainList extends Component {
 
 
     const displayData = data.map((data1, i) => {
-      for (i = 0; i <= data1.length; i++) {
-        console.log("@@@@@@@@@@@@@@@")
-        console.log(i);
-      }
       const getCategory = () => {
         let categoryName = data1.category.name
 

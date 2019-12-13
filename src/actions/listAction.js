@@ -1,11 +1,6 @@
 import { COMPLAIN_LIST_URL, COMPLAIN_COUNT_URL, COMPLAIN_STATUS_URL } from '../constants/complainList'
-
+import { FETCH_LIST_BEGIN, FETCH_LIST_SUCCESS, FETCH_LIST_FAILURE, FETCH_LIST_FAILURE, FETCH_COUNT_SUCCESS, FETCH_STATUS_COUNT } from '../constants/Constants'
 import { prepareRequestBody, prepareRequestWithOutBody, prepareUrl, prepareAPICall } from '../Utilites/utils'
-export const FETCH_LIST_BEGIN = 'FETCH_LIST_BEGIN';
-export const FETCH_LIST_SUCCESS = 'FETCH_LIST_SUCCESS';
-export const FETCH_LIST_FAILURE = 'FETCH_LIST_FAILURE';
-export const FETCH_COUNT_SUCCESS = 'FETCH_COUNT_SUCCESS';
-export const FETCH_STATUS_COUNT = 'FETCH_STATUS_COUNT';
 
 export const fetchListBegin = () => ({
   type: FETCH_LIST_BEGIN
