@@ -1,0 +1,5 @@
+{
+    "COMPLAIN_LIST_URL": "/complainbox/list/",
+    "COMPLAIN_COUNT_URL": "/complainbox/count?",
+    "COMPLAIN_STATUS_URL": "/complainbox/count/status?"
+}

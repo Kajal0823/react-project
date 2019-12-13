@@ -1,0 +1,3 @@
+{
+    "LOGIN_URL": "/user/auth/login?"
+}

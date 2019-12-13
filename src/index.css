@@ -11,7 +11,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-a {
+/* a {
   padding: 10px;
 
   background-color:orange ;
@@ -19,4 +19,4 @@ a {
   height: 22px;
   width: 151px;
   display: inline-block;
-}
+} */
