@@ -1,10 +1,6 @@
 import { prepareRequestBody, prepareUrl, prepareAPICall } from '../Utilites/utils'
+import { FETCH_LOGIN_BEGIN, FETCH_LOGIN_SUCCESS, FETCH_LOGIN_FAILURE, FETCH_LOGIN_FAILURE } from '../constants/Constants'
 import { LOGIN_URL } from '../constants/login'
-export const FETCH_LOGIN_BEGIN = 'FETCH_LOGIN_BEGIN';
-export const FETCH_LOGIN_SUCCESS = 'FETCH_LOGIN_SUCCESS';
-export const FETCH_LOGIN_FAILURE = 'FETCH_LOGIN_FAILURE';
-export const FETCH_LOGOUT = 'FETCH_LOGOUT';
-export const POST = 'POST';
 export const loginBegin = () => {
   return {
     type: FETCH_LOGIN_BEGIN,
